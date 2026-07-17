@@ -1,14 +1,12 @@
-# Platzhalter-Checkliste
+# Launch-Checkliste
 
-Suche projektweit nach `placeholder` oder nach eckigen Klammern `[`.
-
-- Kontaktdaten und Geschäftsadresse
-- Rechtsform, Impressum, Datenschutz
-- Aktuelle Qualifikationen und Verbandsbezeichnungen
-- Rekorde mit Disziplin, Leistung, Jahr und Quelle
-- Bücher, Publikationen und Medienreferenzen
-- Kursorte, Termine, Dauer, Preise, Gruppengrößen
-- Voraussetzungen, Gesundheitsangaben, Sicherheits- und Kinderschutzkonzept
-- Partner, Hotels, Schiffe und Reiseleistungen
-- Bildrechte, Fotografen-Credits, Alt-Texte
-- Formularanbieter und Datenschutzhinweise
+- [ ] E-Mail, Telefon und Geschäftsadresse einsetzen
+- [ ] Rechtsform und Pflichtangaben ergänzen
+- [ ] Rekorde, Jahre, Disziplinen und Verbandsqualifikationen prüfen
+- [ ] Kurse, Termine, Preise, Gruppengrößen und Leistungen eintragen
+- [ ] Reisebedingungen, Storno, Versicherung und Haftung ergänzen
+- [ ] Eigene, lizenzierte Portrait-, Kurs- und Reisebilder einsetzen
+- [ ] Kontaktformular technisch anbinden und testen
+- [ ] Impressum, Datenschutz und ggf. AGB juristisch prüfen
+- [ ] Open-Graph-Bild final gestalten
+- [ ] Domain, Analytics/Consent (falls genutzt), Sitemap und Search Console einrichten

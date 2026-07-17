@@ -1,24 +1,33 @@
-# Nik Linder Website
+# Nik Linder – Premium Personal Brand Website
 
-Statische, responsive Mehrseiten-Website für GitHub Pages.
+Statische, responsive Website für GitHub Pages. Die bestehende Seitenstruktur wurde beibehalten und visuell zu einer hochwertigen Personal-Brand-, Experten- und Kursverkaufsseite ausgebaut.
 
-## Veröffentlichung über GitHub Pages
-1. Neuen GitHub-Repository anlegen.
-2. Alle Dateien aus diesem Ordner in die oberste Ebene des Repository laden.
-3. Unter **Settings → Pages** als Quelle **Deploy from a branch** wählen.
-4. Branch `main`, Ordner `/ (root)` auswählen und speichern.
+## Seiten
+- Startseite
+- Freediving
+- Relaqua
+- Seatrekking
+- Kurse & Reisen
+- Über Nik
+- Journal + Beispielartikel
+- Kontakt
+- Impressum / Datenschutz / 404
 
-## Vor der Veröffentlichung
-- Alle gelb markierten Platzhalter im HTML ersetzen.
-- Eigene Bilddateien in `assets/img/` ablegen und die Platzhalterflächen ersetzen.
-- Impressum und Datenschutz rechtlich prüfen.
-- Kontaktformular mit Formspree, Netlify Forms oder einem eigenen Backend verbinden.
-- Qualifikationen, Rekorde, Termine, Preise, Partner und Sicherheitsangaben prüfen.
-- Optional eine eigene Domain in GitHub Pages konfigurieren.
+## Veröffentlichung auf GitHub Pages
+1. Alle Dateien in ein Repository hochladen.
+2. Unter **Settings → Pages** den Branch `main` und den Ordner `/root` wählen.
+3. Domain und HTTPS konfigurieren.
 
-## Struktur
-- `index.html` Startseite
-- `freediving.html`, `relaqua.html`, `seatrekking.html`
-- `angebote.html`, `ueber-nik.html`, `blog.html`, `kontakt.html`
-- `blog/druckausgleich.html`
-- `assets/css/style.css`, `assets/js/main.js`
+## Vor dem Launch
+- Alle orange markierten Platzhalter ersetzen.
+- Authentische, lizenzierte Bilder einsetzen.
+- Kurstermine, Leistungen, Preise und Voraussetzungen prüfen.
+- Formular-Backend anbinden.
+- Impressum, Datenschutz, AGB/Reisebedingungen rechtlich prüfen.
+- Rekorde, Qualifikationen, Publikationen und Partner final verifizieren.
+
+## Technik
+- Kein Framework, kein Build-Schritt
+- Reines HTML, CSS und JavaScript
+- Keine externen Fonts, Tracker oder Embeds
+- Mobile Navigation, Angebotsfilter, Demo-Formular und Scroll-Reveals
