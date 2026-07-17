@@ -31,3 +31,18 @@ Statische, responsive Website für GitHub Pages. Die bestehende Seitenstruktur w
 - Reines HTML, CSS und JavaScript
 - Keine externen Fonts, Tracker oder Embeds
 - Mobile Navigation, Angebotsfilter, Demo-Formular und Scroll-Reveals
+
+
+## Kinetic Experience Layer
+
+The current version adds a premium motion and interaction system without external libraries:
+
+- Context-aware custom cursor for fine-pointer desktop devices
+- Magnetic buttons, click ripples and contextual cursor labels
+- 3D card tilt and pointer-reactive hero depth visual
+- Animated breath rings, bubbles, caustic light and depth scanner
+- Kinetic brand-value marquee and live simulated depth readout
+- Scroll progress indicator, staggered reveals and subtle page transitions
+- Automatic reduced-motion mode and touch/mobile fallbacks
+
+All interaction code lives in `assets/js/main.js`; the visual motion layer is appended to `assets/css/style.css`.
