@@ -46,3 +46,15 @@ The current version adds a premium motion and interaction system without externa
 - Automatic reduced-motion mode and touch/mobile fallbacks
 
 All interaction code lives in `assets/js/main.js`; the visual motion layer is appended to `assets/css/style.css`.
+
+## JavaScript-Hinweis
+
+Die Interaktionen sind in `assets/js/main.js` gebündelt. Die HTML-Dateien verwenden eine Versionskennung (`?v=20260717-2`), damit GitHub Pages und Browser nach Updates nicht versehentlich eine ältere JavaScript-Datei aus dem Cache laden.
+
+Für einen lokalen Test den Projektordner nicht direkt aus dem ZIP öffnen, sondern zuerst vollständig entpacken. Noch zuverlässiger ist ein lokaler Webserver, zum Beispiel:
+
+```bash
+python3 -m http.server 8000
+```
+
+Danach `http://localhost:8000` im Browser öffnen. Auf Touch-Geräten und bei aktivierter Betriebssystem-Einstellung „Bewegung reduzieren“ werden Cursor- und intensive Bewegungseffekte absichtlich reduziert.
